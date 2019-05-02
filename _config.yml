@@ -72,10 +72,9 @@ kramdown:
 sass:
   style: :expanded # You might prefer to minify using :compressed
 
+# plugins 下面的选项都删除掉才能够 work.
 # Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+plugins:
 
 # Exclude these files from your production _site
 exclude:
