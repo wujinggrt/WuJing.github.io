@@ -6,10 +6,10 @@
 name: Wu Jing 
 
 # Short bio or description (displayed in the header)
-description: C++...
+description: Keep learning
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: ./assets/haha.png
+avatar: https://wujinggrt.github.io/assets/haha.png
 
 #
 # Flags below are optional
@@ -18,7 +18,7 @@ avatar: ./assets/haha.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: wujinggrt@qq.com
   facebook:
   flickr:
   github: wujinggrt
@@ -72,9 +72,14 @@ kramdown:
 sass:
   style: :expanded # You might prefer to minify using :compressed
 
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
 # plugins 下面的选项都删除掉才能够 work.
 # Use the following plug-ins
-plugins:
+# plugins:
 
 # Exclude these files from your production _site
 exclude:
