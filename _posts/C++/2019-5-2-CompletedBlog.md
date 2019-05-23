@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 完成了博客的搭建
+categories: C++
 ---
 
 ## 博客
