@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Stream Iterator
+topic: C++
 category: C++
 ---
 
