@@ -3,11 +3,11 @@ layout: default
 ---
 
 <div class="posts">
-<section>
-	<ol>
+<section class="cntainer">
+	<olol>
 		{% for post in site.posts %}
-		<li class="post">
-			<span>{{post.date | date:"%Y-%m-%d" }} {{ post.category }}-{{ post.topic }} </span>
+		<li class="post" style="font-size:25px;">
+			<span style="color:gray">{{post.date | date:"%Y/%m/%d" }} {{ post.topic }} </span>
 			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 		</li>
 		{% endfor %}
