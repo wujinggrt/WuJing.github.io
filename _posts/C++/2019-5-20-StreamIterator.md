@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stream Iterator
-categories: C++
+category: C++
 ---
 
 ## C++ 中流迭代器的小节

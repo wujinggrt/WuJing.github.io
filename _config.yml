@@ -53,7 +53,7 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 
-permalink: /:title/
+permalink: /:year/:month/:day/:title/
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
@@ -67,6 +67,9 @@ kramdown:
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
+
+# for code ?
+highlighter: rouge
 
 # Set the Sass partials directory, as we're using @imports
 sass:
