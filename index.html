@@ -6,7 +6,7 @@ layout: default
 <section class="cntainer">
 	<ol>
 		{% for post in site.posts %}
-		<li class="post" style="font-size:25px;">
+		<li style="font-size:20px;">
 			<span style="color:gray">{{post.date | date:"%Y/%m/%d" }} {{ post.topic }} </span>
 			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 		</li>
