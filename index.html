@@ -6,10 +6,10 @@ layout: default
 <section>
 	<ol>
 		{% for post in site.posts %}
-		<article class="post">
+		<li class="post">
 			<span>{{post.date | date:"%Y-%m-%d" }} {{ post.category }}-{{ post.topic }} </span>
 			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-		</article>
+		</li>
 		{% endfor %}
 	</ol>
 </section>
