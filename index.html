@@ -4,24 +4,8 @@ layout: default
 
 <div class="posts">
 <section class="cntainer">
-	<h1>C++</h1>
 	<ol>
-		<!-- {% for post in site.posts %} -->
-		{% for post in site.categories.C++ %}
-		<li style="font-size:20px;">
-			<span style="color:gray">{{post.date | date:"%Y/%m/%d" }} {{ post.topic }} </span>
-			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-		</li>
-		{% endfor %}
-	</ol>
-</section>
-</div>
-<div class="posts">
-<section class="cntainer">
-	<h1>其他</h1>
-	<ol>
-		<!-- {% for post in site.posts %} -->
-		{% for post in site.categories.others %}
+		{% for post in site.posts %}
 		<li style="font-size:20px;">
 			<span style="color:gray">{{post.date | date:"%Y/%m/%d" }} {{ post.topic }} </span>
 			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
