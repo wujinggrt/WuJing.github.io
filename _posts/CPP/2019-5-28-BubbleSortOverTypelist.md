@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 使用 typelist 进行编译期冒泡排序
-topic: C++
-category: C++
+topic: CPP
+category: CPP
 ---
 
 背景：刚刚看完了《Modern C++ Design》第一、二、三、七章，选择实现一个小玩具来练练手，巩固学习到的知识。

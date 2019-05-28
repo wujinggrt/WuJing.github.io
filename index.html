@@ -7,7 +7,7 @@ layout: default
 	<h1>C++</h1>
 	<ol>
 		<!-- {% for post in site.posts %} -->
-		{% for post in site.category.C++ %}
+		{% for post in site.categories.C++ %}
 		<li style="font-size:20px;">
 			<span style="color:gray">{{post.date | date:"%Y/%m/%d" }} {{ post.topic }} </span>
 			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -21,7 +21,7 @@ layout: default
 	<h1>其他</h1>
 	<ol>
 		<!-- {% for post in site.posts %} -->
-		{% for post in site.category.others %}
+		{% for post in site.categories.others %}
 		<li style="font-size:20px;">
 			<span style="color:gray">{{post.date | date:"%Y/%m/%d" }} {{ post.topic }} </span>
 			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
