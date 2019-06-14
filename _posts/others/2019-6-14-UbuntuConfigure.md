@@ -168,7 +168,22 @@ $ sudo passwd # 创建新的超级用户密码
 $ git clone git@github.com:gpakosz/.tmux.git
 ```
 
-## 14 Chrome 和常用软件，常用 setting
+## 14 更仔细的 powerline 字体
+
+网站: https://powerline.readthedocs.io/en/latest/installation/linux.html#fonts-installation
+
+```sh
+$ pip install --user powerline-status
+# 如果没有安装的话就
+$ pip install --user git+git://github.com/powerline/powerline
+$ wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
+$ wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
+$ mv PowerlineSymbols.otf ~/.local/share/fonts/
+$ fc-cache -vf ~/.local/share/fonts/
+$ mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
+```
+
+## 15 Chrome 和常用软件，常用 setting
 
 安装 `Chrome` 安装插件 `vimium`, `setupvpn`。
 
