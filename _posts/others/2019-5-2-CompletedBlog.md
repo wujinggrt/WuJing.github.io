@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 完成了博客的搭建
-topic: -
+topic: None
 category: others
 ---
 
