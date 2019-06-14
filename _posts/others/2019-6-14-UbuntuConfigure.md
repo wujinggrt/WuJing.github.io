@@ -140,6 +140,6 @@ Ubuntu chrome 不能在拓展中安装插件：
 
 ## 成果
 
-![vim](../..//images/vim_airline_theme.png)
+![vim](../../images/vim_airline_theme.png)
 
 ![zsh and tmux]({{ site.baseurl }}/images/tmux_and_zsh.png)
